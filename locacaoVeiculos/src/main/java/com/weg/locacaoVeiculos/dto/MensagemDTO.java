@@ -1,6 +1,6 @@
-package com.weg.locacaoVeiculos.dto;
+    package com.weg.locacaoVeiculos.dto;
 
-public record MensagemDTO(
-        String mensagem
-) {
-}
+    public record MensagemDTO(
+            String mensagem
+    ) {
+    }

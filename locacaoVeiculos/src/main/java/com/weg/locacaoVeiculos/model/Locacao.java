@@ -43,7 +43,15 @@ public class Locacao {
         this.veiculo = veiculo;
     }
 
+    public Locacao(Integer dias, Cliente cliente, Veiculo veiculo) {
+        this.dias = dias;
+        this.cliente = cliente;
+        this.veiculo = veiculo;
+    }
+
     public Locacao() {
     }
+
+
 }
 

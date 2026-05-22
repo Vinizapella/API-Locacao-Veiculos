@@ -1,0 +1,16 @@
+package com.weg.locacaoVeiculos.repositorio;
+
+import com.weg.locacaoVeiculos.model.Veiculo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.weg.locacaoVeiculos.dto.veiculo.VeiculoResponseDTO;
+import java.util.List;
+
+
+@Repository
+public interface VeiculoRepositorio extends JpaRepository<Veiculo, Long> {
+findByDisponivel(Boolean disponivel);
+
+}
